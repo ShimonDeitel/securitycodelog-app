@@ -1,0 +1,29 @@
+{
+  "identifier" : "com.shimondeitel.codelog.pro",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "com.shimondeitel.codelog.pro",
+      "localizations" : [
+        {
+          "description" : "Unlock Pro features",
+          "displayName" : "Home Security Code Log Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.shimondeitel.codelog.pro",
+      "referenceName" : "Home Security Code Log Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
