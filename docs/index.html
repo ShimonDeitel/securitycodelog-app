@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Security Code Log</title>
+<style>
+body{margin:0;background:#1F1111;color:#fff;font-family:-apple-system,Helvetica,Arial,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.wrap{max-width:560px;padding:40px;text-align:center}
+h1{color:#A53D3D;font-size:2rem;margin-bottom:8px}
+p{opacity:.8;line-height:1.5}
+.badge{display:inline-block;margin-top:24px;padding:10px 20px;border:1px solid #A53D3D;border-radius:24px;color:#A53D3D}
+a{color:#A53D3D}
+footer{margin-top:40px;opacity:.5;font-size:.8rem}
+
+  @keyframes floatOrb {
+    0%, 100% { transform: translate(0,0) scale(1); }
+    50% { transform: translate(30px,-40px) scale(1.08); }
+  }
+  @keyframes fadeUp {
+    from { opacity:0; transform: translateY(16px); }
+    to { opacity:1; transform: translateY(0); }
+  }
+  .orb {
+    position: fixed; top: -120px; right: -120px; width: 420px; height: 420px;
+    background: radial-gradient(circle, #A53D3D55 0%, #A53D3D00 70%);
+    filter: blur(10px); pointer-events: none; z-index: 0;
+    animation: floatOrb 9s ease-in-out infinite;
+  }
+  .wrap { position: relative; z-index: 1; }
+  h1 { animation: fadeUp 0.8s ease-out both; }
+  p.tagline { animation: fadeUp 0.8s ease-out 0.15s both; }
+  .feature { animation: fadeUp 0.8s ease-out both; transition: transform 0.25s ease; }
+  .feature:nth-of-type(1) { animation-delay: 0.3s; }
+  .feature:nth-of-type(2) { animation-delay: 0.45s; }
+  .feature:hover { transform: translateY(-3px); }
+  footer { animation: fadeUp 0.8s ease-out 0.6s both; }
+</style></head>
+<body>
+<div class="orb"></div><div class="wrap">
+<h1>Home Security Code Log</h1>
+<p>Securely store alarm codes, gate codes, and who has access, all offline.</p>
+<div class="badge">Coming to the App Store</div>
+<footer><a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a> &middot; s0533495227@gmail.com</footer>
+</div></body></html>
